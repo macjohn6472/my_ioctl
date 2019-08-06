@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUF_LEN	chardev.c	52;"	d	file:
+CHARDEV_H	chardev.h	7;"	d
+DEVICE_FILE_NAME	chardev.h	52;"	d
+DEVICE_NAME	chardev.c	48;"	d	file:
+Device_Open	chardev.c	/^static int Device_Open = 0;$/;"	v	file:
+Fops	chardev.c	/^struct file_operations Fops = {$/;"	v	typeref:struct:file_operations
+IOCTL_GET_MSG	chardev.h	36;"	d
+IOCTL_GET_NTH_BYTE	chardev.h	45;"	d
+IOCTL_SET_MSG	chardev.h	20;"	d
+KERNEL_VERSION	chardev.c	29;"	d	file:
+MAJOR_NUM	chardev.h	16;"	d
+MODVERSIONS	chardev.c	6;"	d	file:
+Message	chardev.c	/^static char Message[BUF_LEN];$/;"	v	file:
+Message_Ptr	chardev.c	/^static char *Message_Ptr;$/;"	v	file:
+SUCCESS	chardev.c	40;"	d	file:
+cleanup_module	chardev.c	/^void cleanup_module()$/;"	f
+device_ioctl	chardev.c	/^int device_ioctl($/;"	f
+device_open	chardev.c	/^static int device_open(struct inode *inode, $/;"	f	file:
+device_read	chardev.c	/^static ssize_t device_read($/;"	f	file:
+device_release	chardev.c	/^static int device_release(struct inode *inode, $/;"	f	file:
+device_write	chardev.c	/^static ssize_t device_write(struct file *file,$/;"	f	file:
+init_module	chardev.c	/^int init_module()$/;"	f
+ioctl_get_msg	ioctl.c	/^ioctl_get_msg(int file_desc)$/;"	f
+ioctl_get_nth_byte	ioctl.c	/^ioctl_get_nth_byte(int file_desc)$/;"	f
+ioctl_set_msg	ioctl.c	/^ioctl_set_msg(int file_desc, char *message)$/;"	f
+main	ioctl.c	/^main()$/;"	f
